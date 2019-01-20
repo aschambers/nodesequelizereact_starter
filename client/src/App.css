@@ -1,0 +1,89 @@
+:root {
+  --color-white: #FFF;
+  --color-black: #000;
+  --color-primary: #3F7FBF;
+  --color-primary-light: #9BB1F6;
+  --color-primary-dark: #0A40F4;
+  --color-grey-light-1: #faf9f9;
+  --color-grey-light-2: #f4f2f2;
+  --color-grey-light-3: #f0eeee;
+  --color-grey-light-4: #ccc;
+  --color-grey-dark-1: #333;
+  --color-grey-dark-2: #777;
+  --color-grey-dark-3: #999;
+  --color-navigation-links: #2870B8;
+  --background-gradient-primary: rgba(65, 67, 69, 0.932);
+  --background-gradient-secondary: rgba(34, 36, 37, 0.829);
+  --background-gradient-fallback: rgb(34, 36, 37); }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.6; }
+
+a {
+  text-decoration: none;
+  color: var(--color-white);
+  cursor: pointer; }
+
+textarea {
+  resize: none; }
+
+input[type=checkbox] {
+  zoom: 1.5; }
+
+@font-face {
+  font-family: "BebasNeue Bold";
+  src: url("./assets/fonts/BebasNeue Bold.ttf"); }
+
+@font-face {
+  font-family: "BebasNeue Regular";
+  src: url("./assets/fonts/BebasNeue Regular.ttf"); }
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1;
+  /* Firefox */ }
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: black;
+  opacity: 1 !important; }
+
+::-moz-placeholder {
+  color: black;
+  opacity: 1 !important; }
+
+:-ms-input-placeholder, ::-ms-input-placeholder {
+  /* Internet Explorer 10-11, Microsoft Edge */
+  color: black; }
+
+.flex {
+  display: flex; }
+
+.row {
+  display: flex;
+  flex-direction: row; }
+
+.column {
+  display: flex;
+  flex-direction: column; }
+
+.center-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.center-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
